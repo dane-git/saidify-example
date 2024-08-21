@@ -7,12 +7,13 @@ const myData = {
   d: '',
 };
 const label = 'd';
-const said = saidify(myData, label); // defaults to Blake3-256 and JSON
+const [said, sad] = saidify(myData, label); // defaults to Blake3-256 and JSON
 console.log(`SAID is: ${said}`);
+console.log(`SAD is: ${sad}`);
 
 
 
 // verify self addressing identifier
-const computedSAID = 'ELLbizIr2FJLHexNkiLZpsTWfhwUmZUicuhmoZ9049Hz';
-const doesVerify = verify(myData, computedSAID);
+const said2 = 'ELLbizIr2FJLHexNkiLZpsTWfhwUmZUicuhmoZ9049Hz'; // Computed from SAID reference implementation
+const doesVerify = verify(sad, said2);
 console.log(`SAID verifies: ${doesVerify}`);
