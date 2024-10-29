@@ -1,0 +1,18 @@
+{
+    "myData": {
+        "source": "https://github.com/kentbull/saidify/issues/11"
+    }, 
+    "myData1": {
+        "source": "https://github.com/WebOfTrust/vLEI/blob/dev/samples/acdc/ecr-authorization-vlei-credential.json",
+        "note": "version ('v') key edited to '_v'",
+        "equivalent": "https://github.com/dane-git/simple-said/blob/main/tests/acdcs/ecr-authorization-vlei-credential_e.json"
+    },
+    "myData2": {
+        "source": "https://github.com/WebOfTrust/vLEI/blob/dev/samples/acdc/ecr-authorization-vlei-credential.json",
+        "equivalent": "https://github.com/dane-git/simple-said/blob/main/tests/acdcs/ecr-authorization-vlei-credential.json"
+    },
+    "myData3": {
+        "source": "https://github.com/WebOfTrust/vLEI/blob/dev/schema/acdc/ecr-authorization-vlei-credential.json",
+        "equivalent": "https://github.com/dane-git/simple-said/blob/main/tests/schemas/ecr-authorization-vlei-credential.json"
+    }
+}
